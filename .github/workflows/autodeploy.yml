@@ -23,9 +23,9 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Installing Node
-      uses: action/setup-node@v2-beta
+      uses: actions/setup-node@v1
       with:
-        node version: 12  
+        node-version: '12'
     # Runs a set of commands using the runners shell
     - name: installing surge
       run: npm install -global surge
